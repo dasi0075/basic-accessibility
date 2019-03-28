@@ -7,18 +7,18 @@
   <link href="css/modules.css" rel="stylesheet">
 </head>
 <body>
-<header>
+<header role="banner">
 <h1>Pangolin</h1>
-<nav>
+<nav role="navigation">
 <ul>
-  <li><a href="#">Description</a></li>
-  <li><a href="#">Behaviour</a></li>
-  <li><a href="#">Conservation</a></li>
+  <li><a href="#description">Description</a></li>
+  <li><a href="#behavior">Behaviour</a></li>
+  <li><a href="#conservation">Conservation</a></li>
 </ul>
 </nav>
 </header>
-<main>
-  <section>
+<main role="main">
+  <section id="description" tabindex="0">
 <h2>Description</h2>
 Some countries where pangolins are found
 Botswana
@@ -30,18 +30,21 @@ Tanzania
 Uganda
 Zambia
 Zimbabwe
-
+  </section>
+<section id="description" tabindex="0">
 <h2>Behaviour</h2>
 https://en.wikipedia.org/wiki/Pangolin#Behavior
 Read more about Pangolin behaviour
 Read more
-
+</section>
+<section id="description" tabindex="0">
 <h2>Conservation</h2>
 https://en.wikipedia.org/wiki/Pangolin#Conservation
 Read more about Pangolin conservation
 Read more
+</section>
 </main>
-<footer>
+<footer role="contentinfo">
 <small>© 1821 Pangolin</small>
 </footer>
 </body>
